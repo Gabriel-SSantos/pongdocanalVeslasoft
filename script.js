@@ -4,23 +4,23 @@ let buton = document.getElementsByClassName('bots')[0]
 //buton.addEventListener('onclick', cima)
 function cima(){
     if(esquerda.y > 0){
-        esquerda.y -= esquerda.speed*3
+        esquerda.y -= esquerda.speed*3.5
     }
 }
 function baixo(){
     if(esquerda.y + esquerda.altura < canvas.height){
-        esquerda.y += esquerda.speed*3
+        esquerda.y += esquerda.speed*3.5
     }
 }
 function cima1(){
     if(direita.y > 0){
-        direita.y -= direita.speed*3
+        direita.y -= direita.speed*3.5
     }
     
 }
 function baixo1(){
     if(direita.y + direita.altura < canvas.height){
-        direita.y += direita.speed*3
+        direita.y += direita.speed*3.5
     }
 }
 let teclas = {}
