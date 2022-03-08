@@ -1,4 +1,6 @@
 body{
+    display:flex;
+    flex-direction: column;
     background-color: rgb(228, 223, 217);
     margin-top: 20px;
 }
